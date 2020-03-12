@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154957465-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-154957465-1');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./public/stylesheets/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <script>
+        window.fbAsyncInit = () => {
+            FB.init({
+            appId      : '2739836836096199',
+            xfbml      : true,
+            version    : 'v5.0'
+            });
+        };
+    
+        (function(d, s, id){
+            let js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <title>Stylish Shopping Cart</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="desktop-container">
+                <div class="desktop-nav-column-left">
+                    <img src="./public/images/logo.png" alt="logo-img" class="desktop-logo">
+                    <div class="desktop-nav-labels">
+                        <div class="desktop-nav-women">
+                            <p class="desktop-nav-women">女裝</p>
+                        </div>
+                        <div class="desktop-nav-line">
+                            <p>|</p>
+                        </div>
+                        <div class="desktop-nav-man">
+                            <p class="desktop-nav-man">男裝</p>
+                        </div>
+                        <div class="desktop-nav-line">
+                            <p>|</p>
+                        </div>
+                        <div class="desktop-nav-accessories">
+                            <p class="desktop-nav-accessories">配件</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="desktop-nav-column-right">
+                    <input type="text"class="desktop-nav-search" id="desktopSearchBar">
+                        <img src="./public/images/search.png" alt="search-icon" class="desktop-nav-search-icon" id="desktopSearchBtn">
+                    <a href="./views/cart.html">
+                        <div class="desktop-nav-cart">
+                            <img src="./public/images/cart.png" alt="cart-icon">
+                            <div class="desktop-nav-cart-count">
+                                0
+                            </div>
+                        </div>
+                    </a>
+                    <div class="desktop-nav-member">
+                        <img src="./public/images/member.png" alt="member-icon" class="member-img">
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-container">
+                <div class="logo-wrapper">
+                        <div class="search-icon-fake">
+                            <img src="./public/images/search.png" alt="search-icon">
+                        </div>
+                        <div class="logo">
+                                <img src="./public/images/logo.png" alt="logo" class="mobile-logo">
+                        </div>
+                        <div class="search-icon">
+                            <div class="search-input-field">
+                                <input type="text" class="search-input" id="mobileSearchBar">
+                            </div>
+                            <img src="./public/images/search.png" alt="search-icon" class="nav-search-icon" id="mobileSearchBtn">
+                        </div>
+                </div>
+                <div class="nav-bar">
+                    <div class="nav-women-field">
+                        <p class="nav-women">女裝</p>
+                    </div>
+                    <div class="nav-line">
+                        <p>|</p>
+                    </div>
+                    <div class="nav-man-field">
+                        <p class="nav-man">男裝</p>
+                    </div>
+                    <div class="nav-line">
+                        <p>|</p>
+                    </div>
+                    <div class="nav-accessories-field">
+                        <p class="nav-accessories">配件</p>
+                    </div>
+                    <div class="cart-member-wrapper">
+                        <a href="./views/cart.html">
+                            <div class="cart">
+                                <img src="./public/images/cart-mobile.png" alt="cart-img">
+                                <p>購物車</p>
+                                <div class="mobile-nav-cart-count">
+                                    0
+                                </div>
+                            </div>
+                        </a>
+                        <div class="nav-line">
+                            <p>|</p>
+                        </div>
+                        <div class="member">
+                            <img src="./public/images/member-mobile.png" alt="cart-img" class="member-img">
+                            <p class="member-word">會員</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dektop-nav-border">
+
+            </div>
+        </nav>
+    </header>
+    <section class="banner" id="bannerField">
+    </section>
+    <section class="items">
+        <div class="container" id="cardField">
+        </div>
+    </section>
+    <section class="footer" id="footerField">
+        <div class="footer-mobile-container">
+            <div class="column-wrapper">
+                <div class="column1">
+                    <div class="line">
+                        關於 Stylelish
+                    </div>
+                    <div class="line">
+                        服務條款
+                    </div>
+                    <div class="line">
+                        隱私政策
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="line">
+                        聯絡我們
+                    </div>
+                    <div class="line">
+                        FAQ
+                    </div>
+                </div>
+                <div class="column3">
+                    <div class="icon">
+                        <img src="./public/images/line.png" alt="icon-img">
+                    </div>
+                    <div class="icon">
+                        <img src="./public/images/twitter.png" alt="icon-img">
+                    </div>
+                    <div class="icon">
+                        <img src="./public/images/facebook.png" alt="icon-img">
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2018. All rights reserved</p>
+            </div>
+        </div>
+        <div class="footer-desktop-container">
+            <div class="footer-desktop-labels">
+                <div>
+                    關於 Stylish
+                </div>
+                <div>
+                    |
+                </div>
+                <div>
+                    服務條款
+                </div>
+                <div>
+                    |
+                </div>
+                <div>
+                    隱私政策
+                </div>
+                <div>
+                    |
+                </div>
+                <div>
+                    聯絡我們
+                </div>
+                <div>
+                    |
+                </div>
+                <div>
+                    FAQ
+                </div>
+            </div>
+            <div class="footer-desktop-icons">
+                <div>
+                    <img src="./public/images/line.png" alt="line">
+                </div>
+                <div>
+                    <img src="./public/images/twitter.png" alt="twitter">
+                </div>
+                <div>
+                    <img src="./public/images/facebook.png" alt="facebook">
+                </div>
+                <div class="footer-desktop-copyright">
+                    © 2018. All rights reserved
+                </div>
+            </div>
+        </div>
+    </section> 
+    <script src="./public/javascript/index.js"></script>
+</body>
+</html>
