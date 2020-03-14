@@ -30,6 +30,11 @@ http://bit.ly/2QeVRcG
 ### Browse products in different category
 &nbsp;&nbsp;Users can see all the product in front page and switch different category simply by clicking the navigation bar.
 
+
+
+
+
+
 ---
 
 
@@ -37,11 +42,17 @@ http://bit.ly/2QeVRcG
 &nbsp;&nbsp;Users can see the product detail simply by clicking the image of product.
 
 
+![](https://i.imgur.com/OPf9gUn.jpg)
+
+
+
+
 ---
 
 ### Add to shopping cart 
 &nbsp;&nbsp;Users can select product's color, size and quantity. It will automatically check the storage if it has enough quantity from backend. 
 
+![](https://i.imgur.com/WKRh8KU.png)
 
 
 ---
