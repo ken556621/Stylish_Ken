@@ -11,7 +11,7 @@ No Excuse is an online basketball platform that can quickly find basketball cour
 # Demo
 
 Here is a working live demo: 
-[https://stylish.com](https://ken556621.github.io/Web-Front-End-2019-Winter/students/ken/stylish/index.html)
+http://bit.ly/2QeVRcG
 
 
 # Technologies
