@@ -307,7 +307,6 @@ function checkLoginState() {
             window.location.href = "./profile.html";
         }else{
             login();
-            console.log('ken')
         }
     });
 }
@@ -320,13 +319,11 @@ function login() {
         email: ''
     };
     FB.login(function(response) {
-      console.log(response);
       userInfo.accessToken = response.authResponse.accessToken;   
       if (response.status === "connected") {
         FB.api("/me", "POST", {
           "fields": "id,name,email,picture"
         }, function(res) {
-          console.log(res);
           userInfo.photo = res.picture.data.url;
           userInfo.name = res.name;
           userInfo.email = res.email;
